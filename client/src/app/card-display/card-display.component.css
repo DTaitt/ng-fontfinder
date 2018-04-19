@@ -1,0 +1,67 @@
+ul {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section.card-display {
+  width: 70vw;
+  justify-content: space-between;
+  background: lavenderblush;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    flex: 1 280px;
+}
+
+div.font-card {
+  background: cornflowerblue;
+  margin: 0 5px 5px;
+  height: 30vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.font-card ul.collection {
+  margin: 0;
+}
+
+div.font-card ul.collection li.variant {
+  text-transform: capitalize;
+}
+
+div.font-card h1 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+div.font-card p {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+div.font-card p.category {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+div.font-card div.variant {
+  font-size: 12px;
+}
+
+div.font-card div.interaction {
+  display: flex;
+  justify-content: space-between;
+}
+
+
