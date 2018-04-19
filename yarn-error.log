@@ -1,0 +1,32 @@
+Arguments: 
+  /home/devdon/.nvm/versions/node/v9.7.1/bin/node /home/linuxbrew/.linuxbrew/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js run flow
+
+PATH: 
+  /home/devdon/.sdkman/candidates/springboot/current/bin:/home/devdon/.nvm/versions/node/v9.7.1/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/devdon/bin:/home/devdon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.7.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "/home/devdon/SECA/projects/fontfinder"
+      at new MessageError (/home/linuxbrew/.linuxbrew/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at /home/linuxbrew/.linuxbrew/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (/home/linuxbrew/.linuxbrew/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /home/linuxbrew/.linuxbrew/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
+      at <anonymous>
