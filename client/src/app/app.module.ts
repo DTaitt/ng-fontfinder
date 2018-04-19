@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { CardDisplayComponent } from './card-display/card-display.component';
+import { FontService } from './services/font.service';
 
 
 @NgModule({
@@ -14,9 +15,12 @@ import { CardDisplayComponent } from './card-display/card-display.component';
     CardDisplayComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [
+    FontService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,3 +1,17 @@
-<p>
-  card-display works!
-</p>
+<section class="card-display" *ngIf='fonts'>
+  <ul>
+    <li *ngFor='let font of fonts'>
+      <div class="font-card">
+        <div class="info">
+          <a href="" target="_blank">
+            <h1 class="family">{{font.family}}</h1>
+          </a>
+          <p class="category">{{font.category}}</p>
+        </div>
+        <div class="interaction">
+          
+        </div>
+      </div>
+    </li>
+  </ul>
+</section>
